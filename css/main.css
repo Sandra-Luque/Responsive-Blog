@@ -1,0 +1,217 @@
+/**{outline: 1px solid rgba(225,0,0, 0.4);
+
+}*/
+.page-header {
+  overflow: hidden;
+  background: #1c1821;
+  height: 4em;
+  transition: all .4s linear;
+  border: none;
+  margin-top: 0; }
+
+.logo {
+  width: 200px;
+  float: left;
+  margin: 0 0 1em 1em; }
+
+.logo img {
+  width: 100%; }
+
+nav {
+  padding: 1em 0 0; }
+
+.page-nav ul, .page-nav li {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.page-nav a {
+  font-family: "Open Sans";
+  color: #fff;
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 0.75em 1em;
+  text-decoration: none;
+  border-top: #666 1px solid;
+  cursor: pointer; }
+
+.page-nav ul li .active,
+.page-nav a:hover {
+  color: #f5b23e; }
+
+.toggle-nav {
+  float: right;
+  font-size: 1.3em;
+  padding: 1em;
+  margin: 0 0 1em 1em;
+  color: white;
+  cursor: pointer; }
+
+.menu-expanded {
+  height: 19em; }
+
+/*MEDIA QUERIES*/
+@media only screen and (min-width: 450px) {
+  .page-header span {
+    display: block; }
+
+  .page-nav {
+    clear: left;
+    position: relative;
+    visibility: inherit;
+    transition: visibility .4s linear; } }
+@media only screen and (min-width: 770px) {
+  .page-header {
+    height: 4em; }
+
+  .logo {
+    max-width: 200px; }
+
+  .page-nav {
+    width: auto;
+    float: right;
+    display: block;
+    clear: none;
+    visibility: visible; }
+
+  .page-header span {
+    display: none; }
+
+  .page-nav ul, .page-nav li {
+    float: left; }
+
+  .page-nav a {
+    border-top: none; } }
+@media only screen and (max-width: 699px) {
+  nav {
+    padding-top: 10px; }
+
+  .collapse {
+    visibility: hidden; } }
+@media only screen and (min-width: 700px) {
+  .collapse {
+    visibility: inherit; } }
+body {
+  background: #2d2735; }
+
+h1 {
+  color: #f5b23e; }
+
+h3 {
+  color: #f5b23e; }
+
+p {
+  color: #fff;
+  padding: 10px; }
+
+i {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  padding: 7px;
+  margin-left: 10px;
+  margin-bottom: 10px; }
+
+h1, h2, h3, h4, h5 {
+  font-family: "Courgette";
+  color: #f5b23e; }
+
+p {
+  font-family: "Open Sans";
+  font-style: italic; }
+
+.text-center {
+  text-align: center; }
+
+.margin-auto {
+  margin: auto; }
+
+.w-100 {
+  width: 100%; }
+
+.mt-3 {
+  margin-top: 30%; }
+
+.border-white {
+  border: 1px solid #fff; }
+
+.text-white {
+  color: #fff; }
+
+.text-tittle {
+  color: #f5b23e; }
+
+.bg-black {
+  background: #1c1821; }
+
+.bg-morado {
+  background: #2d2735; }
+
+.cursiva {
+  font-style: italic; }
+
+.margin-menu {
+  margin: 1% 4%; }
+
+.margin-menu li {
+  margin: auto 1%; }
+
+.texto12 {
+  font-size: 12px; }
+
+.hero {
+  padding-top: 50px; }
+
+.hero-section {
+  background: url(../image/header-image.jpg) 20% 30%;
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  position: relative;
+  margin: 0 0 2% 0; }
+
+.hero-section div {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  bottom: 15%;
+  right: 15%; }
+
+.texto-hero {
+  font-size: 80px;
+  color: #f5b23e; }
+
+.bg-plomo {
+  background: #1c1821; }
+
+.flowers div div {
+  margin-top: 4%; }
+
+.cont-img-now {
+  background: url(../image/image4.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 450px; }
+
+.About, .cont-now {
+  background: #1c1821; }
+
+.img-about {
+  background: url(../image/kew_gardens_3_500x500.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 450px; }
+
+input {
+  background: rgba(255, 255, 255, 0.2);
+  border: 7px solid #1c1821;
+  color: #fff;
+  width: 100%;
+  height: 40px; }
+
+footer {
+  background: #1c1821;
+  height: 100px; }
+
+/*# sourceMappingURL=main.css.map */
